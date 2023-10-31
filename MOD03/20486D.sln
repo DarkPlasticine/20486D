@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34205.153
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollBall", "PollBall\PollBall.csproj", "{20100958-697D-4BF4-85DD-BA9A11333188}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MOD03", "MOD03", "{1984C096-B0B9-4B5B-A507-7A775240C3AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MOD04", "MOD04", "{006AE903-2D9F-4809-A4FC-10628FA76EE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MOD01", "MOD01", "{00B6E7EE-8002-4673-8715-6DFA306357D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MOD02", "MOD02", "{EDF93FB7-0492-48A5-953B-2D180A00B80D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20100958-697D-4BF4-85DD-BA9A11333188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20100958-697D-4BF4-85DD-BA9A11333188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20100958-697D-4BF4-85DD-BA9A11333188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20100958-697D-4BF4-85DD-BA9A11333188}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20100958-697D-4BF4-85DD-BA9A11333188} = {1984C096-B0B9-4B5B-A507-7A775240C3AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA6E29D0-158B-48EF-B2A2-A39F343A8E60}
+	EndGlobalSection
+EndGlobal
