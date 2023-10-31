@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34205.153
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignProject", "DesignProject\DesignProject.csproj", "{18010799-BB82-4C6D-91BC-AAF950062B00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{0FAE00D8-2BC3-49C8-B698-2F590196EA5B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Documents\DetailedPlanningDocument.docx = ..\..\..\..\Documents\DetailedPlanningDocument.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18010799-BB82-4C6D-91BC-AAF950062B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18010799-BB82-4C6D-91BC-AAF950062B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18010799-BB82-4C6D-91BC-AAF950062B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18010799-BB82-4C6D-91BC-AAF950062B00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73B6BECB-C143-4C97-ABC4-E50F9A1D1CA1}
+	EndGlobalSection
+EndGlobal

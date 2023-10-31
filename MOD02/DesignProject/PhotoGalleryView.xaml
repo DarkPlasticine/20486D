@@ -1,0 +1,80 @@
+﻿<Window x:Class="DesignProject.PhotoGalleryView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesignProject"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Title="PhotoGalleryView" Height="600" Width="500">
+    <StackPanel>
+        <Label Content="Adventure Works Photo Sharing" FontSize="20"/>
+
+        <Grid Background="#FF96AFCF"
+            Height="40">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Home" Background="#FF1F477D" 
+            Foreground="#FFFFFFFF"
+            Width="80" DockPanel.Dock="Left"/>
+            <Button Content="Gallery" Background="#FF1F477D" 
+            Foreground="#FFFFFFFF" Grid.Column="1"
+            Width="80"/>
+            <Button Content="Add a Photo" Background="#FF1F477D" 
+            Foreground="#FFFFFFFF" Grid.Column="2"
+            Width="80"/>
+            <Button Content="Slideshow" Background="#FF1F477D" 
+            Foreground="#FFFFFFFF" Grid.Column="3"
+            Width="80"/>
+        </Grid>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Background="#FF96AFCF" Margin="0 8 0 0" Height="190" Width="150"
+                        Grid.Column="0" Grid.Row="0">
+                <Label Content="Title"/>
+                <Label Content="By: Owner"/>
+                <Image Source="photo.jpg" Width="100" Height="100"/>
+                <Label Content="Created On: Date"/>
+            </StackPanel>
+            
+            <StackPanel Background="#FF96AFCF" Margin="0 8 0 0" Height="190" Width="150"
+            Grid.Column="1" Grid.Row="0">
+                <Label Content="Title"/>
+                <Label Content="By: Owner"/>
+                <Image Source="photo.jpg" Width="100" Height="100"/>
+                <Label Content="Created On: Date"/>
+            </StackPanel>
+            
+            <StackPanel Background="#FF96AFCF" Margin="0 8 0 0" Height="190" Width="150"
+            Grid.Column="0" Grid.Row="1">
+                <Label Content="Title"/>
+                <Label Content="By: Owner"/>
+                <Image Source="photo.jpg" Width="100" Height="100"/>
+                <Label Content="Created On: Date"/>
+            </StackPanel>
+
+            <StackPanel Background="#FF96AFCF" Margin="0 8 0 0" Height="190" Width="150"
+            Grid.Column="1" Grid.Row="1">
+                <Label Content="Title"/>
+                <Label Content="By: Owner"/>
+                <Image Source="photo.jpg" Width="100" Height="100"/>
+                <Label Content="Created On: Date"/>
+            </StackPanel>
+        </Grid>
+        
+
+    </StackPanel>
+</Window>
